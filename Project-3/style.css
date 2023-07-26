@@ -1,0 +1,262 @@
+/* Common CSS */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/* 
+colors:
+orange: #ffbe33;
+menu, card, footer, section: rgb(34,40,49);
+font-family: 'Dancing Script', cursive;
+*/
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.myContainer {
+  width: 100%;
+}
+
+.customFont {
+  font-family: 'Dancing Script', cursive;
+}
+
+.PCursor {
+  cursor: pointer;
+}
+
+nav {
+  z-index: +10;
+}
+
+.clearfix {
+  content: "";
+  clear: both !important;
+}
+
+/* End Of Common Css */
+
+/* Design navbar */
+
+#logotype {
+  font-size: 34px;
+  color: #FFF;
+}
+
+.myActive {
+  color: #ffbe33 !important;
+}
+
+li a:hover {
+  color: #ffbe33 !important;
+}
+
+.social {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.social span {
+  color: #FFF;
+  font-size: 16px;
+  transition: all 0.25s ease 0s;
+  cursor: pointer;
+}
+
+.social span:hover {
+  color: #ffbe33;
+}
+
+.orderButton {
+  background-color: #ffbe33;
+  color: #FFF;
+  border-radius: 35px;
+  padding: 8px 30px;
+  transition: all 0.25s ease 0s;
+}
+
+.orderButton:hover {
+  color: #ffbe33;
+  background-color: #FFF;
+}
+
+/* End Of navbar */
+
+/* Design Main Area */
+/* Design Section-1 pic-text */
+.Container2 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  top: -77px;
+  left: 0;
+  background-image: url("Images/image-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.announce {
+  position: absolute;
+  width: 445px;
+  top: 290px;
+  left: 360px;
+}
+
+.tSize {
+  font-size: 14px;
+}
+
+.thirdB {
+  color: #ffbe33;
+}
+
+/* Design Section-1 pic-text */
+
+/* Design Section-2 Menu */
+.myCard-top {
+  background-color: #222831;
+  box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+}
+
+#BBorder {
+  border: 1px solid #ffbe33 !important;
+}
+
+#BBorder:hover {
+  border: 1px solid #ffbe33 !important;
+}
+
+#BBorder span {
+  font-size: 22px;
+}
+
+.menu-img {
+  float: left;
+  margin-right: 15px;
+  width: 120px;
+  height: 120px;
+  border: 3px solid #ffbe33;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.5);
+  transition: all 0.25 linear 0s;
+}
+
+.menu-img:hover {
+  box-shadow: none;
+}
+
+.PTitle {
+  font-size: 20px;
+}
+
+.TTitle {
+  font-size: 26px;
+  margin-top: -10px;
+}
+
+.topMargin {
+  margin-top: 100px;
+}
+
+.smallMenu {
+  color: #222831;
+}
+
+a.smallMenu:hover {
+  background-color: #222831;
+  border-radius: 30px;
+  color: #FFF !important;
+}
+
+.smallMenuActive {
+  background-color: #222831;
+  border-radius: 30px !important;
+  color: #FFF;
+}
+
+.bShadow {
+  box-shadow: 2px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.body-back {
+  background-color: #222831;
+}
+
+.xRadius {
+  border-radius: 25px;
+}
+
+.card-img {
+  width: 100%;
+  height: 200px;
+  background-color: #F1F2F3;
+}
+
+.foodImage {
+  width: 150px;
+  height: 120px;
+  transform: translate(3%, 33%);
+  cursor: pointer;
+}
+
+#badge {
+  border-radius: 50%;
+  font-size: 20px;
+  color: #FFF;
+}
+
+/* End Of Section-2 Menu */
+
+/* Design Section-3 Description */
+#BBacker {
+  background-color: #222831;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#BBacker div.pic-area {
+  flex-basis: 40%;
+  height: 90%;
+  background-image: url("Images/image-13.jpg");
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: 500px;
+}
+
+#BBacker div.text-area {
+  flex-basis: 40%;
+  height: 100%;
+  padding: 265px 145px 265px 50px;
+}
+
+/* End Of Section-3 Description */
+
+/* Design Footer */
+footer .bg {
+  background-color: #222831;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerIcon {
+  color: #fff;
+}
+
+.copyrightContainer {
+  background-color: #222831;
+  text-align: center;
+  height: fit-content;
+  width: 100%;
+}
+
+/* End Of Footer */
+
+/* End Of Main Area */

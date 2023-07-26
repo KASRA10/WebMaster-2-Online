@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="designer" content="Kasra Hosseini-K10">
+  <title>Project-3</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- CDN Bootstrap V4= cloudflare.com -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <!-- google Font and Icon CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Font Awesome V4 CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <!-- Define navbar -->
+  <div class="container">
+    <nav class="navbar navbar-light bg-transparent">
+      <a href="#logo" title="logo" target="_self" class="customFont text-capitalize PCursor navbar-brand"
+        id="logotype">Fean</a>
+      <ul class="nav ml-auto">
+        <li class="nav-item">
+          <a href="#home" class="nav-link text-uppercase text-white myActive" title="home">home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#home" class="nav-link text-uppercase text-white" title="menu">menu</a>
+        </li>
+        <li class="nav-item">
+          <a href="#home" class="nav-link text-uppercase text-white" title="about">about</a>
+        </li>
+        <li class="nav-item">
+          <a href="#home" class="nav-link text-uppercase text-white" title="book table">book table</a>
+        </li>
+      </ul>
+      <div class="social ml-auto">
+        <span class="material-symbols-outlined">
+          person
+        </span>
+        <span class="material-symbols-outlined">
+          shopping_cart
+        </span>
+        <span class="material-symbols-outlined">
+          search
+        </span>
+      </div>
+      <button class="orderButton text-capitalize border-0">order online</button>
+    </nav>
+  </div>
+  <!-- End Of navbar -->
+  <!-- Define Main Area -->
+  <main>
+    <section>
+      <!-- Define Section-1 pic-text -->
+      <div class="myContainer" id="position">
+        <div class="Container2">
+          <div class="announce">
+            <p class="h1 customFont text-white text-capitalize font-weight-bold">fast food restaurant</p>
+            <p class="text-white tSize">Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad
+              mollitia
+              laborum quam quisquam
+              esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero
+              ipsam.</p>
+            <button class="orderButton text-capitalize border-0">order online</button>
+            <div class="social mt-5">
+              <i class="fa fa-circle text-white PCursor" aria-hidden="true"></i>
+              <i class="fa fa-circle text-white PCursor" aria-hidden="true"></i>
+              <i class="fa fa-circle thirdB PCursor" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+        <!-- End Of Container2 -->
+      </div>
+      <!-- End Of myContainer -->
+      <!-- End Of Section-1 pic-text -->
+    </section>
+    <!-- Define Section-2 Menu -->
+    <section>
+      <div class="container">
+        <div class="myContainer">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="myCard-top p-4">
+                <img src="Images/image-2.jpg" alt="burger" title="burger" class="menu-img">
+                <p class="customFont text-white PTitle">Tasty Thursdays</p>
+                <p class="customFont text-white TTitle">20% Off</p>
+                <button class="orderButton text-capitalize border-0" id="BBorder">order online <span
+                    class="material-symbols-outlined align-bottom">
+                    shopping_cart
+                  </span></button>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="myCard-top p-4">
+                <img src="Images/image-3.jpg" alt="burger" title="burger" class="menu-img">
+                <p class="customFont text-white PTitle">Pizza Days</p>
+                <p class="customFont text-white TTitle">20% Off</p>
+                <button class="orderButton text-capitalize border-0" id="BBorder">order online <span
+                    class="material-symbols-outlined align-bottom">
+                    shopping_cart
+                  </span></button>
+              </div>
+            </div>
+            <div class="clear fix"></div>
+          </div>
+          <h1 class="h1 text-capitalize customFont PCursor text-center topMargin font-weight-bold mb-5">Our Menu</h1>
+          <div class="container mb-5">
+            <ul class="nav nav-pills justify-content-center">
+              <li class="nav-item">
+                <a href="#all" class="nav-link smallMenu smallMenuActive">All</a>
+              </li>
+              <li class="nav-item ml-2">
+                <a href="#burger" class="nav-link smallMenu">Burger</a>
+              </li>
+              <li class="nav-item ml-2">
+                <a href="#pizza" class="nav-link smallMenu">Pizza</a>
+              </li>
+              <li class="nav-item ml-2">
+                <a href="#pasta" class="nav-link smallMenu">Pasta</a>
+              </li>
+              <li class="nav-item ml-2">
+                <a href="#fries" class="nav-link smallMenu">Fries</a>
+              </li>
+          </div>
+          <div class="container mt-5">
+            <div class="card-columns">
+              <div class="card text-center body-back border-0 xRadius bShadow mt-4">
+                <div class="card-img">
+                  <img src="Images/image-4.jpg" alt="food image" class="foodImage">
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title text-white">Delicious Pizza</h3>
+                  <p class="card-text text-white text-left tSize">
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque
+                  </p>
+                </div>
+                <ul class="list-group">
+                  <li
+                    class="list-group-item d-flex justify-content-between align-item-center bg-transparent text-white border-0">
+                    $20
+                    <span class="material-symbols-outlined badge badge-warning PCursor border-0" id="badge">
+                      shopping_cart
+                    </span>
+                  </li>
+                </ul>
+                <div>
+                </div>
+              </div>
+              <!-- End Of Card -->
+              <div class="card text-center body-back border-0 xRadius bShadow mt-4">
+                <div class="card-img">
+                  <img src="Images/image-5.jpg" alt="food image" class="foodImage">
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title text-white">Delicious Pizza</h3>
+                  <p class="card-text text-white text-left tSize">
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque
+                  </p>
+                </div>
+                <ul class="list-group">
+                  <li
+                    class="list-group-item d-flex justify-content-between align-item-center bg-transparent text-white border-0">
+                    $20
+                    <span class="material-symbols-outlined badge badge-warning PCursor border-0" id="badge">
+                      shopping_cart
+                    </span>
+                  </li>
+                </ul>
+                <div>
+                </div>
+              </div>
+              <!-- End Of Card -->
+              <div class="card text-center body-back border-0 xRadius bShadow mt-4">
+                <div class="card-img">
+                  <img src="Images/image-6.jpg" alt="food image" class="foodImage">
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title text-white">Delicious Pizza</h3>
+                  <p class="card-text text-white text-left tSize">
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque
+                  </p>
+                </div>
+                <ul class="list-group">
+                  <li
+                    class="list-group-item d-flex justify-content-between align-item-center bg-transparent text-white border-0">
+                    $20
+                    <span class="material-symbols-outlined badge badge-warning PCursor border-0" id="badge">
+                      shopping_cart
+                    </span>
+                  </li>
+                </ul>
+                <div>
+                </div>
+              </div>
+              <!-- End Of Card -->
+              <div class="card text-center body-back border-0 xRadius bShadow mt-4">
+                <div class="card-img">
+                  <img src="Images/image-7.jpg" alt="food image" class="foodImage">
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title text-white">Delicious Pasta</h3>
+                  <p class="card-text text-white text-left tSize">
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque
+                  </p>
+                </div>
+                <ul class="list-group">
+                  <li
+                    class="list-group-item d-flex justify-content-between align-item-center bg-transparent text-white border-0">
+                    $20
+                    <span class="material-symbols-outlined badge badge-warning PCursor border-0" id="badge">
+                      shopping_cart
+                    </span>
+                  </li>
+                </ul>
+                <div>
+                </div>
+              </div>
+              <!-- End Of Card -->
+              <div class="card text-center body-back border-0 xRadius bShadow mt-4">
+                <div class="card-img">
+                  <img src="Images/image-8.jpg" alt="food image" class="foodImage">
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title text-white">French Fries</h3>
+                  <p class="card-text text-white text-left tSize">
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque
+                  </p>
+                </div>
+                <ul class="list-group">
+                  <li
+                    class="list-group-item d-flex justify-content-between align-item-center bg-transparent text-white border-0">
+                    $20
+                    <span class="material-symbols-outlined badge badge-warning PCursor border-0" id="badge">
+                      shopping_cart
+                    </span>
+                  </li>
+                </ul>
+                <div>
+                </div>
+              </div>
+              <!-- End Of Card -->
+              <div class="card text-center body-back border-0 xRadius bShadow mt-4">
+                <div class="card-img">
+                  <img src="Images/image-9.jpg" alt="food image" class="foodImage">
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title text-white">Delicious Pizza</h3>
+                  <p class="card-text text-white text-left tSize">
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque
+                  </p>
+                </div>
+                <ul class="list-group">
+                  <li
+                    class="list-group-item d-flex justify-content-between align-item-center bg-transparent text-white border-0">
+                    $20
+                    <span class="material-symbols-outlined badge badge-warning PCursor border-0" id="badge">
+                      shopping_cart
+                    </span>
+                  </li>
+                </ul>
+                <div>
+                </div>
+              </div>
+              <!-- End Of Card -->
+              <div class="card text-center body-back border-0 xRadius bShadow mt-4">
+                <div class="card-img">
+                  <img src="Images/image-10.jpg" alt="food image" class="foodImage">
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title text-white">Tasty Burger</h3>
+                  <p class="card-text text-white text-left tSize">
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque
+                  </p>
+                </div>
+                <ul class="list-group">
+                  <li
+                    class="list-group-item d-flex justify-content-between align-item-center bg-transparent text-white border-0">
+                    $20
+                    <span class="material-symbols-outlined badge badge-warning PCursor border-0" id="badge">
+                      shopping_cart
+                    </span>
+                  </li>
+                </ul>
+                <div>
+                </div>
+              </div>
+              <!-- End Of Card -->
+              <div class="card text-center body-back border-0 xRadius bShadow mt-4">
+                <div class="card-img">
+                  <img src="Images/image-11.jpg" alt="food image" class="foodImage">
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title text-white">Delicious Pizza</h3>
+                  <p class="card-text text-white text-left tSize">
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque
+                  </p>
+                </div>
+                <ul class="list-group">
+                  <li
+                    class="list-group-item d-flex justify-content-between align-item-center bg-transparent text-white border-0">
+                    $20
+                    <span class="material-symbols-outlined badge badge-warning PCursor border-0" id="badge">
+                      shopping_cart
+                    </span>
+                  </li>
+                </ul>
+                <div>
+                </div>
+              </div>
+              <!-- End Of Card -->
+              <div class="card text-center body-back border-0 xRadius bShadow mt-4">
+                <div class="card-img">
+                  <img src="Images/image-12.jpg" alt="food image" class="foodImage">
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title text-white">Delicious Pasta</h3>
+                  <p class="card-text text-white text-left tSize">
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque
+                  </p>
+                </div>
+                <ul class="list-group">
+                  <li
+                    class="list-group-item d-flex justify-content-between align-item-center bg-transparent text-white border-0">
+                    $20
+                    <span class="material-symbols-outlined badge badge-warning PCursor border-0" id="badge">
+                      shopping_cart
+                    </span>
+                  </li>
+                </ul>
+                <div>
+                </div>
+              </div>
+              <!-- End Of Card -->
+            </div>
+            <!-- End Of Card-Columns -->
+          </div>
+        </div>
+        <!-- End Of myContainer -->
+        <button class="orderButton text-capitalize border-0 mt-5 text-center mx-auto d-block bShadow">order
+          online</button>
+      </div>
+      <!-- End Of Container -->
+    </section>
+    <!-- End Of Section-2 Menu -->
+    <!-- Define Section-3 Description -->
+    <section>
+      <div class="Container mt-5" id="BBacker">
+        <div class="pic-area"></div>
+        <div class="text-area">
+          <p class="h1 customFont text-white text-capitalize font-weight-bold">fast food restaurant</p>
+          <p class="text-white tSize">Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad
+            mollitia
+            laborum quam quisquam
+            esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero
+            ipsam.</p>
+          <button class="orderButton text-capitalize border-0">order online</button>
+        </div>
+      </div>
+      <!-- End Of Container -->
+    </section>
+    <!-- End Of section-3 Description -->
+    <!-- Define Section-4 Form-Map -->
+    <section>
+      <div class="container">
+        <div class="row p-5">
+          <div class="col-md-6">
+            <h1 class="h1 customFont font-weight-bold">Book A Table</h1>
+            <form method="POST">
+              <div class="mt-3">
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+              <div class="mt-3">
+                <input type="text" class="form-control" placeholder="Phone Number">
+              </div>
+              <div class="mt-3">
+                <input type="email" class="form-control" placeholder="Your Email">
+              </div class="mt-3">
+              <div class="form-group mt-3">
+                <select name="gender" id="gender" class="form-control">
+                  <option value="1" selected>How Many Person</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+              </div>
+              <div class="mt-3">
+                <input type="date" class="form-control">
+              </div>
+              <button class="orderButton text-capitalize border-0 mt-4 text-center mx-auto text-=text-uppercase"
+                type="submit">Book
+                Now</button>
+            </form>
+          </div>
+          <!-- End Of Col-6 -->
+          <div class="col-md-6">
+            <div class="mt-3">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1347.1463278175245!2d-74.00685972858084!3d40.71270711805031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sNew%20York%20City%20Hall!5e0!3m2!1sen!2s!4v1690281773668!5m2!1sen!2s"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+        <!-- End Of col-6 -->
+        <div class="containre">
+          <div class="myContainer">
+            <div class="row">
+              <div class="col-6">
+                <div class="myCard-top p-4">
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam
+                  </p>
+                  <h6 class="text-white">
+                    Moana Michell
+                  </h6>
+                  <p class="text-white">
+                    magna aliqua
+                  </p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="myCard-top p-4">
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam
+                  </p>
+                  <h6 class="text-white">
+                    Mike Hamell
+                  </h6>
+                  <p class="text-white">
+                    magna aliqua
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <img src="Images/image-14.jpg" alt="foodie" title="burger" class="menu-img mt-4">
+              </div>
+              <div class="col-6">
+                <img src="Images/image-15.jpg" alt="foodie" title="burger" class="menu-img mt-4">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container mt-5">
+          <div class="btn-toolbar justify-content-center">
+            <div class="btn-group">
+              <input type="button" class="btn btn-warning text-white xRadius" value="<">
+            </div>
+            <div class="btn-group">
+              <input type="button" class="btn btn-warning text-white ml-2 xRadius" value=">">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Of Section-4 Form-Map -->
+    </section>
+  </main>
+  <!-- End Of MAin Area -->
+  <!-- Define Footer Area -->
+  <footer>
+    <div class="myContainer bg p-5 text-center mt-4">
+      <div class="row">
+        <div class="col-4">
+          <h4 class="text-white customFont PCursor">
+            Contact Us
+          </h4>
+          <div class="bg-transparent border-0 text-white myCursor my-2">
+            <span class="mx-auto myCursor"> <span class="material-symbols-outlined align-bottom mr-1 PCursor">
+                location_on
+              </span>Location</span>
+          </div>
+          <div class="bg-transparent border-0 text-white myCursor my-2">
+            <span class="mx-auto myCursor"> <span class="material-symbols-outlined align-bottom mr-1 PCursor">
+                phone_iphone
+              </span>+98621684261</span>
+          </div>
+          <div class="bg-transparent border-0 text-white myCursor my-2">
+            <span class="mx-auto myCursor"> <span class="material-symbols-outlined align-bottom mr-1 PCursor">
+                mail
+              </span>demo@gmail.com</span>
+          </div>
+        </div>
+        <div class="col-4">
+          <h4 class="text-white customFont PCursor text-capitalize">
+            Fean
+          </h4>
+          <p class="text-white">Necessary, making this the first true generator on the Internet. It uses a dictionary of
+            over 200 Latin words, combined with</p>
+          <div class="social mx-auto">
+            <i class="fa fa-facebook-square footerIcon PCursor" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square footerIcon PCursor" aria-hidden="true"></i>
+            <i class="fa fa-linkedin-square footerIcon PCursor" aria-hidden="true"></i>
+            <i class="fa fa-instagram footerIcon PCursor" aria-hidden="true"></i>
+            <i class="fa fa-pinterest-square footerIcon PCursor" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="col-4">
+          <h4 class="text-white customFont PCursor">
+            Opening Hours
+          </h4>
+          <h6 class="text-white font-weight-normal my-4">Everyday</h6>
+          <h6 class="text-white font-weight-normal my-4">10.00 Am -10.00 Pm</h6>
+        </div>
+      </div>
+    </div>
+    <div class="copyrightContainer">
+      <p class="text-white">© 2023 All Rights Reserved By Free Html Templates</p>
+      <p class="text-white m-0">© Distributed By ThemeWagon</p>
+    </div>
+  </footer>
+  <!-- End Of Footer Area -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

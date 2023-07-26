@@ -1,0 +1,353 @@
+/* Theme Colors 
+button-orange: #ff0000
+dark-blue: #000033
+*/
+
+/* common css */
+html {
+  scroll-behavior: smooth;
+}
+
+.myContainer {
+  width: 100%;
+}
+
+textarea {
+  border: none;
+  outline: none;
+}
+
+/* End Of Common css */
+
+/* Classes Which Used In Navbar */
+
+
+.myLogo {
+  width: 30px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.logoType {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.menuText {
+  font-weight: 600;
+  transition: all 0.25s ease 0s;
+  color: #000 !important;
+}
+
+.menuText:hover {
+  color: #ff0000 !important;
+  border-bottom: 3px solid #ff0000;
+}
+
+.activation {
+  color: #ff0000 !important;
+  border-bottom: 3px solid #ff0000;
+}
+
+/* End Of Navbar */
+
+/* classes Which used in Section-1 pic and form */
+.myContainer2 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.myContainer2#back {
+  background-image: url("Images/image-1.jpg");
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: 92% 98%;
+}
+
+.formContainer1 {
+  width: 400px;
+  height: 335px;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 210px;
+  left: 230px;
+}
+
+/* Classes Which Used In Form Area */
+input[type="date"] {
+  cursor: pointer;
+}
+
+.bookButton {
+  width: 45%;
+  margin: 15px auto;
+  height: fit-content;
+  text-align: center;
+  border: none;
+  border-radius: 30px;
+  color: #FFF;
+  background-color: #ff0000;
+  font-size: 18px;
+  transition: all 0.25s linear 0s;
+}
+
+.bookButton:hover {
+  color: #ff0000;
+  background-color: #FFF;
+  box-shadow: 2px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* End Of Form Area */
+
+/* End Of Section-1 pic and form */
+
+/* classes Which Used In Section-2 About */
+.marginTopBottom {
+  margin: 70px auto 0;
+}
+
+.myFlexContainer {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-left: 170px;
+}
+
+.myFlexContainer div.leftSide {
+  flex-basis: 30%;
+  height: 100%;
+}
+
+p .textSize {
+  font-size: 16px;
+}
+
+.myFlexContainer div.rightSide {
+  flex-basis: 60%;
+  height: 70%;
+  background-image: url("Images/image-2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.readMore {
+  border-radius: 35px;
+  background-color: #000;
+  font-size: 14px;
+  transition: all 0.25s linear 0s;
+  border: none;
+}
+
+.readMore:hover {
+  background-color: #ff0000;
+  color: #FFF;
+}
+
+/* End Of Section-2 About */
+
+/* Classes Which Used In Section-3 Rooms */
+.myContainer3 {
+  width: 100%;
+  height: 110vh;
+}
+
+
+.singleLine {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.flexCardArea {
+  width: 80%;
+  margin: 20px auto;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.myCard {
+  flex-basis: 30%;
+  height: 320px;
+  box-shadow: 2px 10px 40px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 0.25s linear 0s;
+}
+
+.myCard:hover {
+  box-shadow: none;
+}
+
+.cardImage {
+  width: 100%;
+  height: 175px;
+  cursor: pointer;
+}
+
+/* End Of Section-3 Rooms */
+
+/* Classes Which Used In Section-4 Gallery */
+.myGridContainer {
+  width: 80%;
+  height: 65vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-template-rows: repeat(2, 230px);
+  justify-content: center;
+  gap: 30px;
+}
+
+.myGridContainer div {
+  box-shadow: 4px 14px 30px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 0.25s linear 0s;
+}
+
+.myGridContainer div:hover {
+  box-shadow: none;
+}
+
+.galleryImage {
+  width: 100%;
+  height: 100%;
+}
+
+/* End Of Gallery */
+
+/* Classes Which Used In Section-5 Blog */
+div.myContainer#blog {
+  height: 80vh;
+  background-image: url("Images/image-blog.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.darkFrame {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#alterHeight {
+  flex-basis: 340px;
+  height: 420px;
+}
+
+#imgHeight {
+  height: 200px;
+}
+
+.mySize {
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+.cardText {
+  font-size: 14px;
+}
+
+/* End Of Blog */
+
+/* Classes Which Used In Last Section Contact Us */
+.formdiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 30px;
+}
+
+.formdiv div.RightForm {
+  flex: 1;
+}
+
+.formdiv div.map {
+  flex: 1;
+}
+
+.inputBox {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.alterHolder::placeholder {
+  text-transform: capitalize;
+  color: #000033;
+  font-weight: 600;
+}
+
+.sendButton {
+  background-color: #000;
+  color: #FFF;
+  padding: 10px 50px;
+  border-radius: 35px;
+  transition: all 0.25s linear 0s;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sendButton:hover {
+  background: #ff0000;
+}
+
+/* End Of Last Section Contact Us */
+
+/* Classes Which Used In Footer */
+footer .footerContainer {
+  width: 100%;
+  height: fit-content;
+  background-color: #000033;
+}
+
+footer .quickLinks {
+  width: 100%;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: repeat(2, 150px) 300px;
+  grid-template-rows: 300px;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+
+footer .footerHeading {
+  width: 130px;
+}
+
+footer .myCursor {
+  cursor: pointer;
+}
+
+footer .footerLink {
+  font-weight: 600;
+}
+
+.activated {
+  color: #ff0000 !important;
+}
+
+footer a:hover {
+  text-decoration: none !important;
+}
+
+.subscribe:hover {
+  color: #FFF !important;
+  background-color: #ff0000 !important;
+}
+
+.CopyRightcontainer {
+  width: 100%;
+  height: fit-content;
+  padding: 30px;
+  text-align: center;
+}
+
+/* End Of Footer */
