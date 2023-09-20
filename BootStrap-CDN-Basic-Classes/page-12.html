@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Kasra Hosseini=K10">
+  <meta name="designer" content="Kasra Hosseini=K10">
+  <meta name="generator" content="Visual Studio Code">
+  <!-- CDN = cloudflare.com -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+  <title>Page-12</title>
+</head>
+
+<body>
+  <div class="container py-5">
+    <br>
+    <hr>
+    <button type="button" class="btn btn-info" data-toggle="tooltip" data-placement="top" title="tooltip-top">Hover
+      Me</button>
+    <button type="button" class="btn btn-danger" data-toggle="tooltip" data-placement="right"
+      title="tooltip-right">Hover
+      Me</button>
+    <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="bottom"
+      title="tooltip-bottom">Hover
+      Me</button>
+    <button type="button" class="btn btn-dark" data-toggle="tooltip" data-placement="left" title="tooltip-left">Hover
+      Me</button>
+    <hr>
+    <br>
+    <button class="btn btn-larg btn-info" type="button" data-toggle="tooltip" data-placement="right" data-html="true"
+      title="<img src='Images/90.jpg' alt='img'>" id="img">Show-Hover Me</button>
+    <br>
+    <hr>
+    <br>
+    <button class="btn btn-secondary" type="button" onclick="showTooltip()">Show Image</button>
+    <button class="btn btn-secondary" type="button" onclick="hideTooltip()">Hide Image</button>
+    <button class="btn btn-secondary" type="button" onclick="toggleTooltip()">Show/Hide Image</button>
+    <hr>
+    <br>
+  </div><!--End Of Container-->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+  <script>
+    $('.carousel').carousel({
+      interval: 3000,
+      keyboard: true,
+      pause: 'hover',
+      wrap: true
+    });
+  </script>
+  <script>
+    $('[data-toggle="tooltip"]').tooltip();
+    function showTooltip() {
+      $('#img').tooltip('show');
+    }
+    function hideTooltip() {
+      $('#img').tooltip('hide');
+    }
+    function toggleTooltip() {
+      $('#img').tooltip('toggle');
+    }
+  </script>
+</body>
+
+</html>
