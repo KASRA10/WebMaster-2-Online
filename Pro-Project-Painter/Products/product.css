@@ -1,0 +1,164 @@
+/* Common and Rest CSS */
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.gray-area {
+  background-color: #F3F3F3;
+}
+
+.light-gray-area {
+  background-color: #FEFEFE;
+}
+
+.card {
+  border: none;
+}
+
+body {
+  background-color: #F2F2F2;
+}
+
+/* End Of Common and Rest CSS */
+
+/* Design Header Area */
+div.container.bg-primary {
+  background-color: #000C30 !important;
+}
+
+div.container.bg-primary a.btn {
+  color: #F2F2F2;
+  border: 1px solid #F2F2F2;
+  transition: all 0.6s 0s;
+}
+
+div.container.bg-primary a.btn:hover {
+  background-color: #F2F2F2;
+  color: #000C30;
+}
+
+/* End Of Header Area */
+
+/* Design Details Area */
+.frame {
+  position: relative;
+}
+
+.frame i.fa-search-plus {
+  padding: 9px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 8px;
+  right: +50px;
+  cursor: pointer;
+  transform: all 0.6s 0s;
+}
+
+.frame i.fa-search-plus:hover {
+  opacity: 0.5;
+}
+
+.product-img {
+  width: 450px;
+  height: 450px;
+  box-shadow: 2px 10px 30px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+ol.breadcrumb {
+  background-color: transparent;
+}
+
+ol.breadcrumb li {
+  cursor: pointer;
+}
+
+ul.points {
+  list-style-type: disc !important;
+}
+
+div.container.border-bottom a.btn-primary {
+  background-color: #0EB2E7;
+  background-color: #0EB2E7;
+  border: none;
+  transition: all 0.6s 0s;
+}
+
+div.container.border-bottom a.btn-primary:hover {
+  background-color: #0a82aa;
+}
+
+span.tags {
+  color: #000C30;
+}
+
+.card-header {
+  background-color: transparent;
+  border: none;
+}
+
+ul.nav-tabs {
+  border-top: 1px solid #000C30;
+}
+
+.card-header .nav-tabs a.nav-link {
+  border: none;
+  border-radius: 0;
+  color: #000C30;
+}
+
+.card-header .nav-tabs a.nav-link.active {
+  border-top: 3px solid #000C30;
+}
+
+
+/* End Of Details Area */
+
+
+
+
+/* Design Contact Area */
+#text-color {
+  color: #000C30;
+}
+
+div.d-flex {
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.con-icon {
+  background-color: #000C30;
+  color: #FFF;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 2px 10px 30px rgba(0, 0, 0, 0.5);
+  transition: all 0.6s 0s;
+  cursor: pointer;
+}
+
+.con-icon:hover {
+  transform: translateY(-5px);
+}
+
+/* End Of Contact Area */
+
+/* Design Footer Area */
+.footer {
+  padding: 30px;
+  background-color: #000C30;
+  width: 100%;
+  text-align: center;
+}
+
+.footer p.h3 {
+  color: #F3F3F3;
+  font-size: 16px;
+}
+
+/* End Of Footer Area */
